@@ -35,7 +35,7 @@
 	</div>
 	<div class="card">
 	  <div class="card-body text-center">
-	  	<img src="p.jpg" class="img-fluid mb-3" style="width:40rem">
+	  	<img src="about/p.jpg" class="img-fluid mb-3" style="width:40rem">
 		<div id="exTab3" class="container">
 			<ul class="nav nav-tabs">
 				<li><a class="nav-link active" href="#1a" data-toggle="tab">Proin et</a></li>
@@ -66,42 +66,42 @@
 	<div class="row text-center mt-5 mb-5">
 		<div class="col">
 			<div style="width: 7rem;">
-			  <img src="s.png" class="card-img-top" alt="...">
+			  <img src="about/s.png" class="card-img-top" alt="...">
 			</div>
 		</div>
 		<div class="col">
 			<div style="width: 7rem;">
-			  <img src="t.png" class="card-img-top" alt="...">
+			  <img src="about/t.png" class="card-img-top" alt="...">
 			</div>
 		</div>
 		<div class="col">
 			<div style="width: 7rem;">
-			  <img src="u.png" class="card-img-top" alt="...">
+			  <img src="about/u.png" class="card-img-top" alt="...">
 			</div>
 		</div>
 		<div class="col">
 			<div style="width: 7rem;">
-			  <img src="v.png" class="card-img-top" alt="...">
+			  <img src="about/v.png" class="card-img-top" alt="...">
 			</div>
 		</div>
 		<div class="col">
 			<div style="width: 7rem;">
-			  <img src="w.png" class="card-img-top" alt="...">
+			  <img src="about/w.png" class="card-img-top" alt="...">
 			</div>
 		</div>
 		<div class="col">
 			<div style="width: 7rem;">
-			  <img src="x.png" class="card-img-top" alt="...">
+			  <img src="about/x.png" class="card-img-top" alt="...">
 			</div>
 		</div>
 		<div class="col">
 			<div style="width: 7rem;">
-			  <img src="y.png" class="card-img-top" alt="...">
+			  <img src="about/y.png" class="card-img-top" alt="...">
 			</div>
 		</div>
 		<div class="col">
 			<div style="width: 7rem;">
-			  <img src="z.png" class="card-img-top" alt="...">
+			  <img src="about/z.png" class="card-img-top" alt="...">
 			</div>
 		</div>
 	</div>

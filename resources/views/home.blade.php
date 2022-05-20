@@ -8,21 +8,21 @@
   </div>
   <div class="carousel-inner carousel-fade" data-bs-ride="carousel">
     <div class="carousel-item active">
-      <img src="d.jpg" class="d-block w-100" alt="...">
+      <img src="home/d.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block rounded" style="background-color: rgb(0, 0, 0, 0.3);">
         <h5>Phasellus feugiat lectus quam</h5>
         <p>Aenean a sapien vel diam placerat tempor. Sed eget ligula.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="e.jpg" class="d-block w-100" alt="...">
+      <img src="home/e.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block rounded" style="background-color: rgb(0, 0, 0, 0.3);">
         <h5>Suspendisse ut orci id sem</h5>
         <p>Ut vitae pharetra tellus, vel dapibus lorem. Aenean commodo diam.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="f.jpg" class="d-block w-100" alt="...">
+      <img src="home/f.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block rounded" style="background-color: rgb(0, 0, 0, 0.3);">
         <h5>Ut ac orci eu sapien</h5>
         <p>Nam ornare placerat purus, eu semper sem vestibulum ut. Sed.</p>
@@ -40,7 +40,7 @@
 </div>
 
 <div>
-	<img src="impulsex.png" class="img-fluid rounded mx-auto d-block mt-5 mb-5">
+	<img src="home/impulsex.png" class="img-fluid rounded mx-auto d-block mt-5 mb-5">
 </div>
 <div class="container">
 	<hr>
@@ -51,21 +51,21 @@
 	<div class="row mb-5">
 		<div class="card-group">
 		  <div class="card text-center">
-		    <img src="a.png" class="rounded mx-auto d-block card-img-top mt-5" style="width: 5rem;" alt="...">
+		    <img src="home/a.png" class="rounded mx-auto d-block card-img-top mt-5" style="width: 5rem;" alt="...">
 		    <div class="card-body">
 		      <h5 class="card-title">Mauris sed egestas</h5>
 		      <p class="card-text">Duis hendrerit magna in justo ullamcorper ultricies. Nunc volutpat lacus vehicula quam dignissim cursus. Ut.</p>
 		    </div>
 		  </div>
 		  <div class="card text-center">
-		    <img src="b.png" class="rounded mx-auto d-block card-img-top mt-5" style="width: 5rem;" alt="...">
+		    <img src="home/b.png" class="rounded mx-auto d-block card-img-top mt-5" style="width: 5rem;" alt="...">
 		    <div class="card-body">
 		      <h5 class="card-title">Quisque cursus tortor</h5>
 		      <p class="card-text">Etiam et molestie felis. Vivamus molestie turpis ac velit faucibus elementum. Nulla ornare nisi facilisis.</p>
 		    </div>
 		  </div>
 		  <div class="card text-center">
-		    <img src="c.png" class="rounded mx-auto d-block card-img-top mt-5" style="width: 5rem;" alt="...">
+		    <img src="home/c.png" class="rounded mx-auto d-block card-img-top mt-5" style="width: 5rem;" alt="...">
 		    <div class="card-body">
 		      <h5 class="card-title">Cras tortor enim</h5>
 		      <p class="card-text">Pellentesque dolor tellus, malesuada nec condimentum vel, dapibus quis quam. Cras rutrum, lacus eget consectetur.</p>
@@ -77,7 +77,7 @@
 	<hr>
 	<div class="row">
 		<figure class="text-center">
-			<img src="g.jpg" class="img-fluid">
+			<img src="home/g.jpg" class="img-fluid">
 		  <blockquote class="blockquote">
 		    <p><b>A well-known quote, contained in a blockquote element.</b></p>
 		  </blockquote>
