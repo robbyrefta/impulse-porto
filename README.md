@@ -1,7 +1,9 @@
 This project for portofio purpose only.
 
-PHP 8.0.9
-Laravel 9
-Bootstrap 5.2
-JQuery 1.11.1
+<ul>
+<li>PHP 8.0.9</li>
+<li>Laravel 9</li>
+<li>Bootstrap 5.2</li>
+<li>JQuery 1.11.1</li>
+</ul>
 
