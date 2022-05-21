@@ -9,7 +9,7 @@ class Customer extends Model
 {
     use HasFactory;
 
-    protected $table = 'tb_customer';
+    protected $table      = 'tb_customer';
     protected $primaryKey = 'customer_id';
-    protected $fillable = ['customer_name', 'contact_name', 'address', 'city'];
+    protected $fillable   = ['customer_name', 'contact_name', 'address', 'city'];
 }

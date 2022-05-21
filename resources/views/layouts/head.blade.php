@@ -6,12 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Impulse Porto | Robby</title>
 	<!-- CSS only -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
 	<!-- JavaScript Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
@@ -43,6 +43,9 @@
 		          </li>
 		          <li class="nav-item">
 		            <a class="nav-link" href="/customer">CRUD Example</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="/customer">Login To Admin Page</a>
 		          </li>
 		        </ul>
 		      </div>
