@@ -16,7 +16,7 @@
 	</nav>
 </div>
 <div class="row text-center mb-2">
-	<h4>Data Customer</h4>
+	<h4>Data User</h4>
 </div>
 <div class="card mb-5">
 	<div class="card-header" style="margin-right: 0;margin-left: auto;">
@@ -28,10 +28,7 @@
 				<button class="btn btn-primary">Search</button>
 			</div>
 			<div class="col">
-				<a class="btn btn-warning" href="/customer">Refresh</a>
-			</div>
-			<div class="col">
-				<a class="btn btn-success" href="{{route('customer.create')}}">Add Data</a>
+				<a class="btn btn-warning" href="/user">Refresh</a>
 			</div>
 		</form>
 	</div>
@@ -39,28 +36,18 @@
 		<table class="table table-bordered table-striped table-hover m-0 table-sm">
 			<thead>
 				<th>#</th>
-				<th>Customer Name</th>
-				<th>Contact Name</th>
-				<th>Address</th>
-				<th>City</th>
-				<th>Action</th>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Created Date</th>
 			</thead>
 			<tbody>
-				@foreach($customers as $customer)
+				<?php $no = 1; ?>
+				@foreach($users as $user)
 					<tr>
-						<td>{{ $customer->customer_id }}.</td>
-						<td>{{ $customer->customer_name }}</td>
-						<td>{{ $customer->contact_name }}</td>
-						<td>{{ $customer->address }}</td>
-						<td>{{ $customer->city }}</td>
-						<td>
-							<a href="{{route('customer.edit', $customer)}}" class="btn btn-sm btn-primary">Edit</a>
-							<form method="post" action="{{route('customer.destroy',$customer)}}" style="display: inline;" onsubmit="return confirm('Delete {{$customer->customer_name}} ?')">
-								@csrf
-								@method('DELETE')
-								<button class="btn btn-sm btn-danger">Delete</button>
-							</form>
-						</td>
+						<td>{{ $no++ }}.</td>
+						<td>{{ $user->name }}</td>
+						<td>{{ $user->email }}</td>
+						<td>{{ $user->created_at }}</td>
 					</tr>
 				@endforeach
 			</tbody>

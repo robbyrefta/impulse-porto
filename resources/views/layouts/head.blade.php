@@ -6,9 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Impulse Porto | Robby</title>
 	<!-- CSS only -->
-	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<!-- JavaScript Bundle with Popper -->
-	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -41,12 +41,15 @@
 		          <li class="nav-item">
 		            <a class="nav-link" href="/contact">Contact</a>
 		          </li>
+		          @guest
 		          <li class="nav-item">
-		            <a class="nav-link" href="/customer">CRUD Example</a>
+		            <a class="nav-link" href="/login">Login To Admin Page</a>
 		          </li>
+		          @else
 		          <li class="nav-item">
-		            <a class="nav-link" href="/customer">Login To Admin Page</a>
-		          </li>
+	                <a class="nav-link" href="{{ route('signout') }}">Logout</a>
+	              </li>
+	              @endguest
 		        </ul>
 		      </div>
 		    </div>
@@ -73,7 +76,7 @@
 				    		<li class="mb-2"><a href="/product" class="text-decoration-none">Product</a></li>
 				    		<li class="mb-2"><a href="/about" class="text-decoration-none">About</a></li>
 				    		<li class="mb-2"><a href="/contact" class="text-decoration-none">Contact</a></li>
-				    		<li class="mb-2"><a href="/customer" class="text-decoration-none">CRUD Example</a></li>
+				    		<li class="mb-2"><a href="/login" class="text-decoration-none">Login To Admin Page</a></li>
 			    		</ul>
 			    	</div>
 			    	<div class="col-sm-4">

@@ -1,4 +1,4 @@
-@extends('layouts.head')
+@extends('layouts.app')
 @section('content')
 <h3 class="mb-3 mt-3">@yield('title', $title)</h3>
 <div class="row">
